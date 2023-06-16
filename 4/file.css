@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+     justify-content: space-between;
+    background-color: black;
+    
+    
+}
+.first h1 {
+    color:dodgerblue;
+    padding-left: 5rem;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-size: 2rem;
+}
+.first h1 span{
+    color:white;
+}
+nav{
+    display: flex;
+     justify-content: space-between;
+    
+}
+nav h3{
+    padding-left:35px;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.first input{
+    
+    margin-top:13px;
+    margin-right:60px;
+border-radius:20px;
+    background-color:dodgerblue;
+    color:white;
+    font-size:18px;
+    width:160px;
+    height:40px;
+}
+.second{
+    height: 100vh;
+    width: 100%;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4WUsA4C_a9IcfOIH4twNBm8bsArJSDTi_wQ&usqp=CAU");
+background-size: cover;
+    background-position: center;
+}
+.second{
+    display: block;
+    padding-top: 140px;
+    padding-left: 250px;
+}
+.second h1{
+    font-size: 70px;
+    font-family:monospace;
+}
+.second h1 span{
+    color:dodgerblue;
+}
+.second input{
+    font-size: 13px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    background-color:dodgerblue;
+    font-family: sans-serif;
+    margin-top:30px;
+}
+.flex-container{
+    display: flex;
+    color: white;
+    margin-top: 60px;
+    line-height: 20px;
+}
+.flex-container .two{
+    padding-left: 30px;
+}
+.flex-container .three{
+    padding-left: 30px;
+}
+.fourth{
+    background-color:black
+}
+.fourth img{
+    height: 65%;
+    width: 35%;
+    
+}
+.imgaboutme{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    height: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.fourth #about-me{
+    padding-left: 170px;
+padding-top: 150px;
+    padding-bottom: 150px;
+}
+.fourth #about-me h1{
+    font-size: 50px;
+line-height: 2px;
+    color: white;
+    
+}
+.fourth #about-me h2{
+    padding-top: 10px;
+line-height: 58px;
+    font-size: 20px;
+    color: white;
+}
+.fourth #about-me h2 span{
+    color: dodgerblue;
+
+}
+.fourth #about-me p{
+    padding-top: 5px;
+    color: white;
+}
+.fifth{
+    background-color: black;
+ height: 500px;   
+}
+.fifth h1{
+    text-align: center;
+    padding-top:100px;
+    font-size: 50px;
+    color: white;
+ padding-bottom: 70px;   
+}
+.uos{
+    display: flex;
+    text-align: center;
+  justify-content: center;
+    
+}
+.uos #s{
+    margin-left: 15px;
+    color: white;
+  background-color: dimgray;  
+    height: 140px;
+   
+    border-radius: 10px;
+}
+.uos h2{
+  font-size: 20px;
+    
+}
+.uos input{
+    padding: 13px 30px;
+    border-radius: 50px;
+    
+    background-color: dodgerblue;
+}
+#f{
+    padding-top: 25px;
+    padding: 55rem auto;
+    font-size: 25px;
+    color: dodgerblue;
+    
+}
+#f:hover{
+    
+    background-color:dimgrey;
+}
+.uos input:hover{
+   cursor:context-menu;
+    background-color:cornflowerblue;;
+}
+.sixth{
+    height: 350px;
+    background-color: black;
+}
+.bw{
+    height: 200px;
+    color: black;
+    background-color: dimgrey;
+    display: block;
+    
+    font-size: 20px;
+    text-align: center;
+}
+.bw h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.bw input{
+  padding: 13px 30px;
+    border-radius: 50px;
+    background-color: dodgerblue;  
+    font-size: 15px;
+}
+.bw input:hover{
+  background-color: cornflowerblue;
+}
+footer{
+    background-color: black;
+}
+footer h1{
+    color: white;
+    text-align: center;
+}

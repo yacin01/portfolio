@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    
+}
+.r{
+    width: 100vw;
+    height:"300px";
+    background-color: blue;
+    z-index: 999;
+}
+.first{
+    padding-bottom:29px;
+     border-left: 0;
+    padding-left:0;
+}
+.header div{
+    z-index:2;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-left: 0;
+}
+header{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-left: 0;
+    
+}
+.header input{
+    position:absolute;
+    right:0;
+}
+.header ul{
+    display: flex;
+    position:absolute;
+    top: 0;
+    padding-bottom: 1px
+        
+    margin-top:0;
+    MARGIN-left:40px;
+}
+.header li{
+    
+    padding:10px;
+
+}
+img{
+    position: absolute;
+    width:100%;
+    height: 86%;
+    margin: 0;
+    z-index: -1;
+    left:0;
+    
+        
+}
+section div{
+    padding-top:199px;
+    z-index:999;
+    font-size:12px;
+    padding-left:63px;
+}
+.first div input:nth-of-type(1){
+   width: 283px;
+    height: 44px;
+    border-radius: 40%;
+    border-bottom: 20px;
+    position: absolute;
+    top:47%;
+}
+.second{
+    background-color:lightblue;
+    width: 100%;
+    height: 80%;   
+    position: absolute;
+    left:0;
+    z-index:-1;
+    
+}
+.second img{
+    width:200px;
+    height: 290px;
+    padding-top: 100px;
+    padding-left: 50px;
+    z-index: -1;
+}
+.second h1{
+    position: absolute;
+    right: 60px;
+    top: 90px;
+    font-size: 40px;
+}
+.second h2{
+    position: absolute;
+    right: 0px;
+    top: 150px;
+  
+}
+.second P{
+    z-index:3;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    left: 260px;
+    
+}
+.second input{
+    position:absolute;
+    top: 360px;
+    left: 260px;
+}
+.three{
+    
+   padding-top: 50px; 
+    background-color: antiquewhite;
+    width: 100%;
+    position: absolute;
+    top: 1030px;
+    height: 100%;
+    left: 0;
+}
+.three h1{
+   text-align: center;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+   font-size:30px; 
+}
+.container{
+    background-color:mediumblue;
+    display: flex;
+    position: absolute;
+}
+.blackone{
+    background-color: black;
+    width: 130px;
+    height: 230px;
+    border: 0;
+    padding:0px;
+    position: absolute;
+    left: 30px;
+    margin-left: 0px;    
+ 
+}
+.blacktwo{
+    background-color: black;
+    width: 130px;
+    height: 230px;
+    border: 0px;
+    padding:0px;
+    position: absolute;
+    left: 170px;
+    
+        
+}
+.blackthree{
+    background-color: black;
+    width: 130px;
+    height: 230px;
+    border: 0;
+    padding:0px;
+    position: absolute;
+    left: 320px;  
+}
+.three div{
+    padding-top: 50px;
+    border-radius: 10%;
+
+}
+.three h1{
+    color: black;
+text-align: center;
+    position: absolute;
+    top: 23px;
+}
+.three h2{
+    color: aliceblue;
+text-align: center;
+}
+.three p{
+    color: aliceblue;
+text-align: center;
+}
+.three input{
+color: pink;
+    background-color: cadetblue;
+width: 120px;
+height: 40px;
+position: absolute;
+left: 5px;
+    border-radius: 10%;
+}
+.hb{
+    color: red;
+    position: absolute;
+}
+.three div:nth-of-type(5){
+    background-color: gray;
+    position: absolute;
+    width: 100%;
+    bottom: 190px;
+    height: 90px;
+}
+.tape h2{
+    position: absolute;
+    bottom: 37px;
+    text-align: center;
+    left: 140px;
+    font-size: 20px;
+}
+.tape input{
+    position: absolute;
+    left: 200px;
+    width: 90px;
+}
+footer{
+  width:100%;
+    height:100px;
+    background-color: lightblue;
+    position:absolute;
+    left:0;
+top:1540px;
+}
+footer h2, footer p{
+text-align:center;
+}

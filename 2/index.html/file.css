@@ -1,0 +1,353 @@
+*{
+ box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.p{
+    width: 100vw;
+    height: 90vw;
+    background-color:white;
+    z-index: 1000;
+}
+.p nav h1{
+    padding-left: 170px;
+    font-size: 35px;
+}
+
+nav{
+    width: 100vw;
+    height: 5%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 8px;
+}
+fs{
+    display: inline;
+}
+.aw{
+    color: gainsboro;
+    font-weight: 800;
+}
+ul li{
+    display: inline-block;
+  padding: 20px;  
+    color:gray;
+    font-weight: 700;
+}
+.fs a {
+    padding-right: 8px;
+    color: black;
+}
+.fs  {
+ padding-right: 150px;     
+    color: red;
+}
+span{
+    color:deeppink;
+    }
+    .secd img{
+        height:750px;
+    
+}
+img{
+    width: 100vw;
+}
+.secd h1{
+  padding: 170px 40px 70px 300px;
+    position: absolute;
+    font-size: 60px;
+    color:deeppink;
+}
+.secd h2{
+  padding: 245px 40px 70px 300px;
+    position: absolute;
+    font-size: 34px;
+    color:black;
+}
+.secd p{
+  padding: 300px 40px 70px 300px;
+    position: absolute;
+    font-size: 20px;
+    color:darkgrey;
+}
+.secd input{
+
+    right: 10px;
+    bottom: 190px;
+    left: 300px;
+    position: absolute;
+    top: 430px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.thrd{
+    position: absolute;
+    width: 80vw;
+    height: 70px;
+    background-color: chartreuse;
+    top: 850px;
+    left:130px;
+}
+#about{
+    color:deeppink  ;
+}
+
+#about-us h1{  
+    text-align: center;
+    padding-top: 15px;
+}
+.thrd img{
+    width:450px;
+    box-sizing: content-box;
+    height: 250px;
+    position: absolute;
+    padding: 70px 200px 500px 0px ;
+}
+.thrd #whychoose{
+    position: absolute;
+    padding: 75px 100px 600px 500px;
+}
+.thrd p{
+    position: absolute;
+    padding: 120px 100px 600px 500px;
+}
+.thrd input{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 300px;
+    right: 395px;   
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.tape{
+    width:100vw;
+    height:200px;
+    background-color: darkgrey;
+    position: absolute;
+    top: 1270px;
+    display:inline-block;
+    
+    }
+.tape #free-shipping{
+    width:20%;
+    height:100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.tape #daysreturn{
+    width:20%;
+    height:100px;
+    background-color: white;
+    position:absolute;
+    top: 50px;
+    left: 405px;
+}
+.tape #offer{
+    width:20%;
+    height:100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+.tape #secure{
+    width:20%;
+    height:100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 110px;
+}
+#tp{
+    font-size: 20px;
+    padding: 20px 30px 40px 100px;
+}
+#utp{
+    position: absolute;
+    bottom: 40px;
+    left:100px;
+    
+}
+#uutp{
+    position: absolute;
+    top: 20px;
+    bottom: 70px;
+    left: 20px;
+    right: 60px;
+    font-size:55px;
+    color: black;
+    cursor: default;
+}
+.frth{
+    height: 500px;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    top: 1500px;
+}
+.latest-product{
+ position: absolute;
+    width: 80vw;
+    height: 70px;
+    background-color: chartreuse;
+    top: 50px;
+    left:130px;
+}
+.latest-product h1{
+ text-align: center;
+ padding-top: 10px;
+    font-size: 45px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+     padding-top: 180px;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+.flowr1 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.flowr2 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.flowr3 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.flowr4 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.flowr5 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.flowr6 img{
+    width:400px;
+    height:300px;
+    padding-left: 30px;
+}
+.product h2{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    bottom: 40px;
+    
+} 
+.product h3{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+.fifth{
+    position: absolute;
+    height:500px;
+    width:100vw;
+    background-color: white;
+    top: 2350px;
+}
+.fifth .para{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 270px;
+}
+.fifth .para .o{
+   
+    border: 20px solid black;
+}
+.sixth{
+    position: absolute;
+    height:500px;
+    width:100vw;
+    background-color: white;
+    top: 2290px;
+    
+}
+form{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+
+form input{
+    display: block;
+    margin-top: 30px;
+    width:400px;
+    height: 30px;
+    
+}
+
+
+.flowerwo{
+    width: 200px;
+    height:100px;
+    position: absolute;
+    left:400px;
+    bottom: 25px;
+    top: 13px;
+    width:50vw;
+    height:29VW;
+  
+}
+#message{
+    padding-bottom:115px;
+    padding-top: 7px;
+}
+#send{
+    margin-top: 10px;
+    width: 190px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+footer{
+    position: absolute;
+    background-color: white;
+    top: 2900px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+footer p{
+    padding-top: 15px;
+    font-size: 15px;
+}
+#wd{
+    
+    color: deeppink;
+}
+#last{
+    position: absolute;
+    text-align: center;
+    top:3100px;
+    left: 500px;
+}

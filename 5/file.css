@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-image: url(https://images.app.goo.gl/JeYHrF84cpVyGR86);
+    
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    height:27%;
+    padding-top: 10px;
+}
+.logo h1{
+    font-family: serif;
+    font-family:serif;
+}
+button{
+    padding: 15px 37px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 16px;
+    
+}
+button:hover{
+    transform: translateY(-10%);
+    background-color: antiquewhite;
+}
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+.txt h1{
+   font-size: 70px;
+}
+.side-bar{
+    position: absolute;
+    background-color: aqua;
+    width:45px;
+    height:100%;
+    top:0; 
+    right:0;
+    font-size: 30px;
+    text-align: center;
+}
+.bar{
+    cursor: pointer;
+}
+.social-media{
+    position: absolute;
+    top: 45%;
+    cursor:pointer;
+}
+.option{
+    position: absolute;
+    bottom: 30px;
+     cursor: pointer;
+}
+.bubbles{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+   
+}
+.sb{
+     animation: bubble 4s linear infinite;
+    background-color: aqua;
+    width: 15px;
+    height: 12px;
+    border-radius: 20px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+        
+    }
+    30%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity:  1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    
+    
+}
+.bubbles .sb:nth-child(1){
+    animation-delay: 3s;
+    width: 20px;
+}
+.bubbles .sb:nth-child(2){
+    animation-delay: 6s;
+    width: 40px;
+}
+.bubbles .sb:nth-child(3){
+    animation-delay: 4.5s;
+    width: 35px;
+}
+.bubbles .sb:nth-child(4){
+    animation-delay: 3s;
+    width: 20px;
+}
+.bubbles .sb:nth-child(5){
+    animation-delay: 5s;
+    width: 30px;
+}
